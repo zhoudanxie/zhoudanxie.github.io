@@ -346,8 +346,8 @@ figure {
 			opacity:0.8;
             background: #fff !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
-              opacity:1;
-				background: #fff !important;
+              opacity:0.8;
+				background: #0190DB !important;
               border: 1.2px solid #000 !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
