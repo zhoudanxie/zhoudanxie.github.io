@@ -320,7 +320,7 @@ figure {
             color: rgba(44, 152, 240, 0.8);
             border-bottom: 1px solid rgba(44, 152, 240, 0.7); }
           #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc2 h1 {
-            font-size:30px; }			
+            font-size:20px; }			
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
           @media screen and (max-width: 768px) {
