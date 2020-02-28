@@ -306,7 +306,7 @@ figure {
           line-height: 1.3;
           font-weight: 500; }
           @media screen and (max-width: 768px) {
-            #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc h1 {
               font-size: 28px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           font-size: 18px;
@@ -326,8 +326,8 @@ figure {
 			  line-height: 1.3;
 			  font-weight: 500; }
 			  @media screen and (max-width: 768px) {
-				#colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
-				  font-size: 28px; } }
+				#colorlib-hero .flexslider .slider-text > .slider-text-inner .desc2 h1 {
+				  font-size: 20px; } }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .heading-section {
           font-size: 50px; }
           @media screen and (max-width: 768px) {
