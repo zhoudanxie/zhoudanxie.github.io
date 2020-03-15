@@ -352,6 +352,11 @@ figure {
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
+	#colorlib-hero .flexslider .footnote {
+		color:#fff;
+		padding-bottom:30px;
+		text-align:right;	}
+
 
 body.offcanvas {
   overflow-x: hidden; }
