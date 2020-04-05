@@ -1469,7 +1469,7 @@ body.offcanvas {
   
 
 /* Load more button */
-#loadmore {
+.loadmore {
 	display:none;
 }
 .btn-container{
