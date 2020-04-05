@@ -1,16 +1,32 @@
 /* Load more button */
 
 $(document).ready(function() {
-  $("#toggle").click(function() {
-    var elem = $("#toggle").text();
-	var moreText = document.getElementById("loadmore");
+  $("#toggle1").click(function() {
+    var elem = $("#toggle1").text();
+	var moreText = document.getElementById("more1");
     if (elem == "Load More") {
       //Stuff to do when btn is in the read more state
-      $("#toggle").text("Load Less");
+      $("#toggle1").text("Load Less");
       moreText.style.display = "inline";
     } else {
       //Stuff to do when btn is in the read less state
-      $("#toggle").text("Load More");
+      $("#toggle1").text("Load More");
+      moreText.style.display = "none";
+    }
+  });
+});
+
+$(document).ready(function() {
+  $("#toggle2").click(function() {
+    var elem = $("#toggle2").text();
+	var moreText = document.getElementById("more2");
+    if (elem == "Load More") {
+      //Stuff to do when btn is in the read more state
+      $("#toggle2").text("Load Less");
+      moreText.style.display = "inline";
+    } else {
+      //Stuff to do when btn is in the read less state
+      $("#toggle2").text("Load More");
       moreText.style.display = "none";
     }
   });
