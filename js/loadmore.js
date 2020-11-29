@@ -47,19 +47,3 @@ $(document).ready(function() {
     }
   });
 });
-
-$(document).ready(function() {
-  $("#toggle4").click(function() {
-    var elem = $("#toggle4").text();
-	var moreText = document.getElementById("more4");
-    if (elem == "Load More") {
-      //Stuff to do when btn is in the read more state
-      $("#toggle4").text("Load Less");
-      moreText.style.display = "inline";
-    } else {
-      //Stuff to do when btn is in the read less state
-      $("#toggle4").text("Load More");
-      moreText.style.display = "none";
-    }
-  });
-});
