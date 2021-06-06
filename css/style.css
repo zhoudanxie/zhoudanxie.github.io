@@ -1495,8 +1495,9 @@ button{
 }
 
 .conference-link {
+	a {
 	color:black;
 	text-decoration:underline;
 	font-size:90%;
-	margin-left:5%
+	margin-left:5% }
 }
