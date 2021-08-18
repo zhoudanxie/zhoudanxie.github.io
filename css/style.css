@@ -1493,3 +1493,10 @@ button{
   font-family:"Quicksand", Arial, sans-serif;
   box-sizing:border-box;
 }
+
+.conference-link {
+	color:black;
+	text-decoration:underline;
+	font-size:90%;
+	margin-left:5%;
+}
