@@ -328,7 +328,9 @@ figure {
 .colorlib-lead {
           font-size: 20px;
           color: #fff; }
-        #colorlib-hero .flexslider .slider-text > .slider-text-inner p {
+ 		#colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
+          text-shadow: 2px 2px #000; }       
+		#colorlib-hero .flexslider .slider-text > .slider-text-inner p {
           margin-bottom: 0; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
           font-size: 12px;
@@ -1225,7 +1227,7 @@ body.offcanvas {
 
 .btn-primary {
   background: #fff;
-  color: #fff;
+  color: #000;
   border: 1.2px solid #000;
   opacity:0.7;	}
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -1238,7 +1240,7 @@ body.offcanvas {
     border: 1.2px solid #000; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
       background: #fff;
-      color: #fff; }
+      color: #000; }
 
 .btn-success {
   background: #5cb85c;
